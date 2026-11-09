@@ -1,0 +1,7 @@
+# Instacart SQL Analysis
+
+## Dataset
+
+This is a project using the Instacart Market Basket Analysis dataset. The dataset comes from a 2017 Kaggle competition. It contains 3.4 million orders from 200,000 anonymized users. 
+
+The original competition was to predict which orders show up in a user's next order using previously purchased orders as predictor variables. 

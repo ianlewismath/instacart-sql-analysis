@@ -3,13 +3,19 @@ import pandas as pd
 
 dataDir = Path("data")
 
-for file in dataDir.glob("*.csv"):
-	df = pd.read_csv(file)
-	#Print file names
-	print(f"\n{'-' * 60}")
-	print(file.name)
-	print(f"\n{'-' * 60}")
-	#List data for csv file
-	#print(df.shape)
-	print(df.columns.to_list())
-	#print(df.head())
+#for file in dataDir.glob("*.csv"):
+#	df = pd.read_csv(file)
+#	#Print file names
+#	print(f"\n{'-' * 60}")
+#	print(file.name)
+#	print(f"\n{'-' * 60}")
+#	#List data for csv file
+#	#print(df.shape)
+#	print(df.columns.to_list())
+#	#print(df.head())
+
+df = pd.read_csv("data/order_products__prior.csv")
+print(df.head(20))
+print(df.dtypes)
+
+
